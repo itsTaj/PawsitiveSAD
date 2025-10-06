@@ -1,0 +1,26 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build
+.vite
+.next
+out
+build
+dist
+apps/**/dist
+apps/**/node_modules
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data tmp
+/data/*.tmp
