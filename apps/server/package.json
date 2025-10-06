@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PORT=4000 nodemon src/index.js",
+    "start": "PORT=4000 node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.12"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "rides": [
+    {
+      "id": "12c1359c-276a-4fab-b331-67680830a637",
+      "initiatorId": "u1",
+      "start": {
+        "lat": 23.7806,
+        "lng": 90.2792
+      },
+      "end": {
+        "lat": 23.8103,
+        "lng": 90.4125
+      },
+      "route": [
+        {
+          "lat": 23.7806,
+          "lng": 90.2792
+        },
+        {
+          "lat": 23.8103,
+          "lng": 90.4125
+        }
+      ],
+      "distanceMeters": 13958.56350458357,
+      "totalFare": 120,
+      "isOpen": false,
+      "createdAt": 1759775842574,
+      "participants": [
+        {
+          "userId": "u1",
+          "start": {
+            "lat": 23.7806,
+            "lng": 90.2792
+          },
+          "end": {
+            "lat": 23.8103,
+            "lng": 90.4125
+          },
+          "share": 60,
+          "approved": true
+        },
+        {
+          "userId": "u2",
+          "start": {
+            "lat": 23.7806,
+            "lng": 90.2792
+          },
+          "end": {
+            "lat": 23.8103,
+            "lng": 90.4125
+          },
+          "share": 60,
+          "approved": true
+        }
+      ],
+      "payments": [],
+      "status": "ongoing"
+    }
+  ],
+  "ratings": []
+}
